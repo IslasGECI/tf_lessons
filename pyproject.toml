@@ -19,5 +19,6 @@ module = "tf_lessons"
 requires = [
     "numpy",
     "tensorflow",
+    "matplotlib",
 ]
 requires-python=">=3"
