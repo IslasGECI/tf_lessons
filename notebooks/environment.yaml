@@ -1,0 +1,5 @@
+name: voila-gallery-country-indicators
+channels:
+- conda-forge
+dependencies:
+- tf_lessons
