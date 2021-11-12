@@ -59,3 +59,9 @@ mutants: install
 
 tests: install
 	pytest --verbose
+
+build_demo:
+	docker build --file Dockerfile.demo --tag=islasgeci/tf_lessons .
+
+run_demo:
+	docker run --publish 8080:8888 --rm islasgeci/tf_lessons
