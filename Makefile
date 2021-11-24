@@ -64,4 +64,4 @@ build_demo:
 	docker build --file Dockerfile.demo --tag=islasgeci/tf_lessons .
 
 run_demo:
-	docker run --publish 8888:8080 --rm islasgeci/tf_lessons
+	docker run --publish 8080:8888 --rm islasgeci/tf_lessons
