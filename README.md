@@ -25,11 +25,13 @@ The prediction will be around 19.0
 ---
  ## Run with jupyterlab
 
-Desde afuera:
+Since your production work:
 
  ```bash
  make build_demo
  make run_demo
  ```
+ 
+Open the localhost:8080
  
 
