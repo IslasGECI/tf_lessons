@@ -22,3 +22,14 @@ prediction = neuron.predict([10.0])
 ```
 The prediction will be around 19.0
 
+---
+ ## Run with jupyterlab
+
+Desde afuera:
+
+ ```bash
+ make build_demo
+ make run_demo
+ ```
+ 
+
