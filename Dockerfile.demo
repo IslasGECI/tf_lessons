@@ -1,0 +1,9 @@
+FROM jupyter/minimal-notebook
+COPY notebooks/lesson_1.ipynb /workdir/
+RUN pip install \
+    git+https://github.com/IslasGECI/tf_lessons.git@feature/first_files \
+    matplotlib \
+    pandas
+USER root
+WORKDIR /workdir
+CMD ["bash", "-c", "umask 000 && jupyter lab --ip=0.0.0.0 --allow-root --NotebookApp.token=''"]
